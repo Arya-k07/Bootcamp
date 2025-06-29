@@ -2,17 +2,19 @@
 <html>
 <head>
     <title>Login </title>
+    <link rel="stylesheet" href="LoginPage.css">
 </head>
 <body>
-    <h1>Login </h1>
-    <form>
+    <div class="container">
+        <h1>Login </h1>
+    <form id="loginForm">
         <label>Username</label>
         <br>
-        <input type="text" name="username">
+        <input type="text" name="username" id="username">
         <br>
         <label>Password</label>
         <br>
-        <input type="password" name="password">
+        <input type="password" name="password" id="password">
         <br>
         <input type="submit" value="Log in">
         <br>
@@ -22,6 +24,8 @@
         <br>
         <a href="createaccount.in">Create an Account</a>
     </form>
+    </div>
+    <script src="LoginPage.js" defer></script>  
 
 </body>
 </html>

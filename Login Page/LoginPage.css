@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-image: url('Login.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.container h1 {
+  margin-bottom: 24px;
+  color: #333;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 14px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #3384b0;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #4bb1d3;
+}
+
+form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+form a {
+  display: block;
+  margin-top: 10px;
+  color: #4bb1d3;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+form a:hover {
+  color: #2c91b8;
+}
